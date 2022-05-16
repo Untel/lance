@@ -4,6 +4,8 @@
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.Client = {}, global.http));
 })(this, (function (exports, http) { 'use strict';
 
+    console.log("Hey, i'm the new lance!")
+
     function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
     var http__default = /*#__PURE__*/_interopDefaultLegacy(http);
